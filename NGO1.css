@@ -1,0 +1,193 @@
+body{
+    background-image:url("https://seansmith.theworldrace.org/blogphotos/theworldrace/seansmith/kids_group.jpg");
+   background-size:99% 77%;
+    background-attachment: scroll;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-color: #4bccb057;
+ }
+ .loginbox1 input[type="submit"]{
+    text-align: right;
+    float: right;
+    margin-top: 4%;
+    margin-right: 10%;
+    border: none;
+    outline: none;
+    background:rgba(252, 102, 2, 0.918);
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+}
+.loginbox1 input[type="submit"]:hover{
+    cursor:pointer;
+    background: #9ab90cf1;
+    color: white;
+}
+ nav{
+    position: relative;
+    margin: 2px auto 0px;
+    width: 100%;
+    height: 58px;
+    background-color:rgba(0, 0, 0, 0.336) ;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 4px 5px 0 rgba(0, 5, 2, 0.144);
+    
+  }
+  nav a{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-transform:uppercase;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+  }
+  nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: rgba(18, 24, 77, 0.253);
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+    align-self: start;
+} 
+ 
+  a:nth-child(1){
+    width: 180px;
+  }
+  nav .start-home,a:nth-child(1):hover~.animation{
+    width: 200px;
+    left: 0;
+  }
+  
+  a:nth-child(2){
+    width: 240px;
+  }
+  
+  nav .start-AboutUs,a:nth-child(2):hover~.animation{
+    width: 240px;
+    left: 180px;
+  }
+ 
+  a:nth-child(3){
+    width: 350px;
+  }
+  nav .start-GetInvolved,a:nth-child(3):hover~.animation{
+    width: 350px;
+    left:400px ;
+  }
+  a:nth-child(4){
+    width: 230px;
+  }
+  nav .start-ContactUs,a:nth-child(4):hover~.animation{
+    width: 230px;
+    left: 770px;
+  }
+ input[type=text] {
+       width: 60%;
+       padding: 10px 10px;
+       margin: 8px 0;
+       box-sizing: border-box;
+       color:white;
+     background: rgba(66, 187, 181, 0.185); /* Black background with 0.5 opacity */
+       border: none;
+       border-bottom:0.6mm ridge rgba(14, 144, 250, 0.918);
+       }
+ input[type=tel] {
+     width: 40%;
+     background: rgba(66, 187, 181, 0.185); /* Black background with 0.5 opacity */
+     border: none;
+     color:white;
+     margin: 2%;
+     border-bottom:0.6mm ridge rgba(14, 195, 250, 0.918);
+       }
+ input[type=date]{
+         width: 60%;
+         background: rgba(66, 187, 181, 0.185); /* Black background with 0.5 opacity */
+         border: none;
+         color:white;
+         margin: 2%;
+         border-bottom:0.6mm ridge rgba(14, 203, 250, 0.918);
+       }
+ textarea{
+         width: 60%;
+         background: rgba(66, 187, 181, 0.185); /* Black background with 0.5 opacity */
+         border: none;
+         color:white;
+         margin: 2%;
+         border-bottom:0.6mm ridge rgba(14, 215, 250, 0.918);
+       }
+ .content{
+          max-width: 500px;
+          margin: auto;
+          padding:30px;
+         }
+ form{
+     text-align: center;
+     position: relative;
+     background: rgba(0, 0, 0, 0.575); /* Black background with 0.5 opacity */
+     color: #f1f1f1;
+     padding:5%;
+     padding-top:5%;
+     padding-bottom:5%;
+     box-shadow: 0 2px 100px rgba(14, 144, 250, 0.918);
+    }
+ ::placeholder {
+     color: rgba(224, 218, 218, 0.637);}
+ .loginbox input[type="submit"]{
+     border: none;
+     outline: none;
+     background:rgba(3, 144, 209, 0.918);
+     color: white;
+     font-size: 18px;
+     border-radius: 10px;
+ }
+ .loginbox input[type="submit"]:hover{
+     cursor:pointer;
+     background: #9ab90cf1;
+     color: white;
+ }
+ .loginbox input[type="reset"]{
+     border: none;
+     outline: none;
+     background:rgba(3, 144, 209, 0.918);
+     color: white;
+     font-size: 18px;
+     border-radius: 10px;
+ }
+ .loginbox input[type="reset"]:hover{
+     cursor:pointer;
+     background: #9ab90cf1;
+     color: white;
+ }
+ @media only screen and (max-width: 70%){
+ /* For mobile phones: */
+     [class*="loginbox"] {width: 100%;}
+ }
+ @media only screen and (min-width: 70%) {
+ /* For tablets: */
+ .form {width: 66.66%;padding-bottom: 40%;}
+ }
+ @media only screen and (min-width: 20%) {
+ /* For desktop: */
+ .form {width: 66.66%;}
+ }
+ .have{
+     margin-top: 10px;
+     text-align: center;
+     color: rgb(255, 255, 255);
+     font-size: 40px;
+     background-color: rgba(0, 0, 0, 0.486);
+     font-family: 'Sofia', cursive;
+ }
+ h2{
+     text-align: center;
+     font-size: 30px;
+ }
